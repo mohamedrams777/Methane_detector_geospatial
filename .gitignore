@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Large model files (tracked with Git LFS if needed)
+models/**/*.keras
+models/**/*.h5
+models/**/*.weights.h5
+
+# Large data files
+data/processed/*.npz
+data/raw/
+*.tif
+*.geotiff
+
+# Large HTML outputs (can regenerate)
+# outputs/gis/vellakkal_3d_methane_map.html
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
