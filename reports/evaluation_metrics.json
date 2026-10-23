@@ -2,32 +2,32 @@
   "n_test_patches": 215,
   "confusion_matrix": [
     [
-      155,
-      0
+      0,
+      155
     ],
     [
-      60,
-      0
+      0,
+      60
     ]
   ],
-  "accuracy": 0.7209302325581395,
+  "accuracy": 0.27906976744186046,
   "precision_per_class": {
-    "non_hotspot": 0.7209302325581395,
-    "hotspot": 0.0
+    "non_hotspot": 0.0,
+    "hotspot": 0.27906976744186046
   },
   "recall_per_class": {
-    "non_hotspot": 1.0,
-    "hotspot": 0.0
+    "non_hotspot": 0.0,
+    "hotspot": 1.0
   },
   "f1_per_class": {
-    "non_hotspot": 0.8378378378378378,
-    "hotspot": 0.0
+    "non_hotspot": 0.0,
+    "hotspot": 0.43636363636363634
   },
-  "precision_macro": 0.36046511627906974,
+  "precision_macro": 0.13953488372093023,
   "recall_macro": 0.5,
-  "f1_macro": 0.4189189189189189,
-  "roc_auc": 0.9746236559139785,
-  "pr_auc": 0.9498625366868543,
+  "f1_macro": 0.21818181818181817,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
   "decision_threshold": 0.5,
   "comparison_1d_cnn_tabular_baseline": {
     "accuracy": 0.4166,

@@ -1,4 +1,4 @@
-# AI-Based Methane Hotspot Detection
+# Methane Hotspot Detection
 ### Vellakkal Dumpsite, Madurai, Tamil Nadu — Sentinel-5P + Sentinel-2 — 2D CNN
 
 ## Overview
